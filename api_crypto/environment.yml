@@ -1,0 +1,37 @@
+name: crypto_forecast_ml
+channels:
+  - conda-forge
+dependencies:
+  # --- cœur numérique ---
+  - python=3.10            # reste sur 3.10 si c’est ce que tu utilises
+  - numpy=1.24.*           # version compatible pandas 2.0
+  - pandas=2.0.*
+  - scipy                  # conda choisira celle qui va bien
+  - scikit-learn
+  - lightgbm               # 3.3.x
+  - xgboost
+  - ta-lib                 # dépend de libta-lib
+  - pyarrow                # si tu l’utilises (BigQuery)
+  # --- infra / API ---
+  - uvicorn
+  - fastapi
+  - pyyaml
+  # --- divers ---
+  - seaborn
+  - jupyterlab             # si besoin
+  - pyjwt          # alias conda-forge : pyjwt
+  - cryptography   # (si tu ne l’as pas déjà)
+  - ta               # ← nouvelle ligne
+  - pip                    # toujours garder pip
+  - pip:
+      # uniquement les paquets pure-Python
+      - db-dtypes==1.4.3
+      - google-cloud-bigquery==3.11.0
+      - optuna==4.4.0
+      - python-dotenv==1.0.0
+      - python-multipart==0.0.20
+      - tinycss2==1.4.0
+      - uri-template==1.3.0
+      - webcolors==24.11.1
+      - logger==1.4
+

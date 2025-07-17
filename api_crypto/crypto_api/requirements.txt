@@ -1,0 +1,41 @@
+# Core data processing and analysis
+pandas>=2.2
+numpy>=1.26
+pyarrow
+
+# Machine learning
+scikit-learn
+xgboost
+lightgbm
+optuna
+shap
+ta
+
+# Data visualization
+matplotlib
+seaborn
+
+# Google Cloud and BigQuery
+google-cloud-bigquery
+
+# API development
+fastapi
+uvicorn[standard]
+
+# Authentication
+PyJWT
+python-multipart
+passlib[bcrypt]
+python-jose[cryptography]
+
+# Utilities
+python-dotenv
+joblib
+scipy
+
+# Monitoring
+evidently
+
+# Testing
+pytest
+pytest-asyncio

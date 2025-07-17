@@ -1,0 +1,28 @@
+# Core data processing and analysis
+pandas==2.0.0
+numpy==1.24.3
+
+# Machine learning
+scikit-learn==1.2.2
+xgboost==1.7.5
+lightgbm==3.3.5
+
+# Data visualization
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Google Cloud and BigQuery
+google-cloud-bigquery==3.11.0
+pyarrow==12.0.0
+
+# API development
+fastapi==0.95.1
+uvicorn==0.22.0
+
+# Utilities
+python-dotenv==1.0.0
+joblib==1.2.0
+
+# Jupyter notebooks
+jupyter==1.0.0
+ipykernel==6.22.0

@@ -1,0 +1,28 @@
+{
+  "symbol": "BTCUSDT",
+  "horizon": 4,
+  "created_at": "2025-07-17T20:21:08.170012",
+  "model_type": "xgboost",
+  "features": [
+    "open",
+    "high",
+    "low",
+    "close",
+    "volume",
+    "quote_volume",
+    "nb_trades",
+    "sma_5",
+    "sma_10",
+    "ema_5",
+    "ema_10",
+    "rsi_14",
+    "macd",
+    "macd_signal",
+    "macd_diff",
+    "bb_upper",
+    "bb_lower",
+    "bb_width",
+    "atr_14"
+  ],
+  "pred_thresh": 0.5
+}
